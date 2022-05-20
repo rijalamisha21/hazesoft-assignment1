@@ -76,7 +76,7 @@ h1 {
 .video-img {
   position: absolute;
   top: 128%;
-  margin-left: 13%;
+  margin-left: 10%;
   /* border: 1px solid red; */
   z-index: 2;
 }
