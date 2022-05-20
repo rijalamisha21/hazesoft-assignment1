@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* font-family: 'Roboto Serif', serif; */
+  
 }
 
 header {
@@ -9,11 +9,17 @@ header {
   display: flex;
   justify-content: space-evenly;
   z-index: 2;
+  margin-top: 1rem;
   /* border: 1px solid red;
    */
 }
+.nav-bar {
+  margin-top: 1rem;
+}
 
-
+.search-logo {
+  margin-top: 1rem;
+}
 
 .nav-bar a {
   font-size: 1rem;
@@ -23,7 +29,7 @@ header {
   margin: 1rem;
   color: white;
 }
-.nav-bar a:hover{
+.nav-bar a:hover {
   color: #7f7f7f;
 }
 
@@ -41,16 +47,15 @@ header {
   left: 20%;
   z-index: 1;
   width: 60%;
-
 }
-.para {
+.text-section {
   position: absolute;
-  top: 28rem;
-  left: 23rem;
+  top: 23rem;
+  left: 20rem;
   width: 45%;
-  text-align: justify;
+  letter-spacing: 0.5px;
   text-align-last: center;
-  z-index: 5;
+  z-index: 2;
   /* border: 1px solid red; */
 }
 h1 {
@@ -58,17 +63,15 @@ h1 {
   letter-spacing: 0.5;
   margin-bottom: 1rem;
 }
-p {
+.text-section-para {
   text-align: center;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5rem;
   letter-spacing: 1;
   color: white;
   cursor: pointer;
 }
-
-
 
 .video-img {
   position: absolute;
@@ -77,11 +80,77 @@ p {
   /* border: 1px solid red; */
   z-index: 2;
 }
-.video-img img{
-  
+.video-img img {
   width: 100%;
   border-radius: 5px;
+}
+
+.second-container {
+  margin: 20rem 6rem 10rem 6rem ;
   
+  /* border: 1px solid red; */
+}
+
+.card {
+  width: 20rem;
+  height: 25rem;
+  border: none !important;
+  margin-top: 2rem;
+}
+
+.card-img-top {
+  height: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-small-text,
+.card-text {
+  color: #7f7f7f;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.card-small-text {
+  font-size: 12px;
+  margin-top: 1rem;
+}
+.third-container-img1 {
+  position: relative;
+  width: 100vw;
+}
+.third-container-img2 {
+  position: absolute;
+  width: 100vw;
+  margin-top: -35rem;
+
+}
+.third-container-text1 {
+  position: absolute;
+  margin-top: -44rem;
+  margin-left: 10rem;
+
+  /* border: 1px solid red; */
+}
+.third-container-text1 h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.third-container-text1 p , .third-container-text2 p{
+  color: white;
+  font-size: 1.2rem;
   
 }
+.third-container-text2{
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 10rem;
+}
+
+.third-container-text2 h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
 
